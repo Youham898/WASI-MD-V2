@@ -13,13 +13,13 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github = process.env.GITHUB || "https://github.com/Itxxwasi/WASI-MD-V2";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
+global.github = process.env.GITHUB || "null";
+global.gurl = process.env.GURL || "null";
+global.website = process.env.GURL || "null";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/fee7af11b4edf8eb7c272.jpg";
 global.devs = "923135673658";
-global.sudo = process.env.SUDO || "923135673658,923192173398";
-global.owner = process.env.OWNER_NUMBER || "923135673658";
+global.sudo = process.env.SUDO || "9231178511210,923255190898";
+global.owner = process.env.OWNER_NUMBER || "923178511210";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -53,7 +53,7 @@ module.exports = {
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2",
   ownername: process.env.OWNER_NAME || "WASI",
-  errorChat: process.env.ERROR_CHAT || "923192173398",
+  errorChat: process.env.ERROR_CHAT || "923178511210",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
